@@ -4,7 +4,14 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
-  return <div className="text-4xl text-red-400">MASKA</div>;
+  return (
+    <div>
+      <Head>
+        <title>MASKA</title>
+      </Head>
+      <main></main>
+    </div>
+  );
 };
 
 export default Home;
